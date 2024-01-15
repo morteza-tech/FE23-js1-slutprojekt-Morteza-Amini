@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(22, 21, 21);
+    background-color: rgb(23, 24, 24);
+}
+
+header {
+    background-color:#383131;
+    padding: 20px;
+    text-align: center;
+    color: rgb(24, 133, 69);
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #a88989;
+}
+
+h2 {
+    border-bottom: 2px solid #302525;
+    padding-bottom: 10px;
+}
+.results-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-section,
+.movies-section {
+    flex: 1;
+    padding: 0 20px; /* Justera beroende på ditt behov */
+}
+
+.people-section h2,
+.movies-section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
